@@ -79,6 +79,8 @@ header{
 header nav a{
 	margin: 0 23px;
 	text-decoration: none;
+	color: rgba(160, 138, 143, 0.65);
+	font-weight: 800;
 }
 .cta{
 	margin: 70px;
@@ -136,6 +138,19 @@ hr{
 	padding: 10px;
 	width: 430px;
 	margin-bottom: 30px;
+}
+.service-article button{
+	background: white;
+	cursor: pointer;
+	border: 1px solid #492638;
+	margin-top: 20px;
+	border-radius: 12%;
+	padding: 5px 18px;
+}
+.service-article button:hover {
+	background: #d07fa7;
+	border: 1px solid #985d7a;
+	color: white;
 }
 .facts{
 	display: flex;
